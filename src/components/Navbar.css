@@ -1,0 +1,77 @@
+.pme-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 1.5rem;
+  background: #291f5f;
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  min-height: 22px;
+}
+
+.pme-navbar-brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+}
+
+.pme-navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.pme-navbar-user {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+}
+
+.pme-navbar-icon {
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+}
+
+.pme-navbar-logout {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.pme-navbar-logout:hover {
+  background: #c0392b;
+}
+
+@media (max-width: 576px) {
+  .pme-navbar {
+    padding: 0.5rem 0.8rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .pme-navbar-brand {
+    font-size: 0.9rem;
+  }
+  .pme-navbar-user {
+    font-size: 0.85rem;
+  }
+}

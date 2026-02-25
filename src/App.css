@@ -1,0 +1,59 @@
+#root {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container-fluid{
+  background-color: #b5b4b4;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.innerTag{
+  background-color: #fdfbfb;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.text-primary-text{
+  color: #a51b1b;
+  font-family:Calibri (Body);
+  font-weight: bold;
+}
+
+.btn-system{
+  width: 200px;
+  margin-bottom:2%;
+  padding: 10px;
+  font-size:24px;
+  border-radius: 0px;
+  background-color: darkslateblue;
+  color: white;
+}
